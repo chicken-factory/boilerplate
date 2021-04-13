@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$ck&@8k#&o9#d!3i3r70yy^7g%2o78sh@*%o!-v*uxdm=(xn6v'
+SECRET_KEY = 'django-insecure-w^8v+3-4m$ybklgg)(g8(y^47g!o48w*t_quythspy=&6fv3=_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mychicken.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': str(BASE_DIR / 'db.sqlite3'),
     }
 }
 

@@ -1,16 +1,18 @@
+SHELL := /bin/bash
+
 all:
-	echo 'Makefile for chicken boilerplate'
+	@echo 'Makefile for chicken boilerplate'
 		
 init:
-	pip install -U pip
-	pip install django
+	pip3 install -U pip
+	pip3 install django
 
 format:
-	echo 'Formatting...'
+	@echo 'Formatting...'
 
 lint:
-	echo 'Checking lint...'	
+	@echo 'Checking lint...'	
 
 test:
-	echo 'Testing...'
+	@echo 'Testing...'
 
